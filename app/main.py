@@ -4,7 +4,7 @@ from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import JSONResponse
 from app.core.logger import LOGGING_CONFIG
 from app.api.routes import auth, snippets
-from app.db.session import database
+from app.db.session import d
 from app.db.init_db import init_db
 
 # Применение конфигурации логов

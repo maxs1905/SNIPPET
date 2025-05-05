@@ -1,7 +1,5 @@
+from pydantic import BaseModel
 from typing import Optional
-
-from pydantic import BaseModel, EmailStr
-from uuid import UUID
 
 class SnippetBase(BaseModel):
     title: str
@@ -9,8 +7,6 @@ class SnippetBase(BaseModel):
     is_public: bool = True
 
 class SnippetCreate(SnippetBase):
-    title: str
-    code: str
     language: Optional[str] = "python"
 
 class SnippetUpdate(SnippetBase):
@@ -21,10 +17,6 @@ class SnippetUpdate(SnippetBase):
 
 class SnippetOut(SnippetBase):
     id: int
-    title: str
-    code: str
-    language: str
-    is_public: bool
     uuid: str
     owner_id: int
 

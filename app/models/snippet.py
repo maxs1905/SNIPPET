@@ -1,16 +1,13 @@
-from sqlalchemy import Column, String, Text, Boolean, ForeignKey
-from sqlalchemy.dialects.postgresql import UUID
-from sqlalchemy.orm import relationship
-import uuid
+from sqlalchemy import Column, Integer, String, Boolean
 from app.db.base import Base
 
 class Snippet(Base):
     __tablename__ = "snippets"
 
-    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
-    title = Column(String, nullable=False)
-    code = Column(Text, nullable=False)
+    id = Column(Integer, primary_key=True, index=True)
+    title = Column(String)
+    code = Column(String)
+    language = Column(String)
     is_public = Column(Boolean, default=True)
-    owner_id = Column(UUID(as_uuid=True), ForeignKey("users.id"))
-
-    owner = relationship("User", back_populates="snippets")
+    owner_id = Column(Integer, index=True)
+    uuid = Column(String, unique=True)
