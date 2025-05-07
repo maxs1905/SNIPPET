@@ -12,3 +12,5 @@ class User(Base):
     salt = Column(String(1024), nullable=False, unique=True, index=True)
     role_id = Column(Integer, ForeignKey('role.id'))
     role = relationship("Role", back_populates="users")
+
+    snippets = relationship("ShortedUrl", back_populates= "owner")
