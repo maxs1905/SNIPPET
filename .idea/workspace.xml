@@ -4,17 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843e7dd7-207f-483f-a1f3-3a1eb3b066b0" name="Changes" comment="File1">
+    <list default="true" id="843e7dd7-207f-483f-a1f3-3a1eb3b066b0" name="Changes" comment="File2">
+      <change afterPath="$PROJECT_DIR$/src/auth/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/roles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/schemas/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/routes/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/routes/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/snippet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/snippet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/dependencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/routes/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/routes/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/routes/snippets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/routes/snippets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/init_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/init_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/snippet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/snippet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/snippet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/snippet_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/snippet_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/test_snippets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/test_snippets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +60,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\python_practice\pythonProject1\pythonProject23" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,22 +89,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745682700445</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="File2">
+      <option name="closed" value="true" />
+      <created>1746489469266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746489469266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="File1" />
-    <option name="LAST_COMMIT_MESSAGE" value="File1" />
+    <MESSAGE value="File2" />
+    <option name="LAST_COMMIT_MESSAGE" value="File2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/api/routes/snippets.py</url>
+          <url>file://$PROJECT_DIR$/src/api/routes/snippets.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/models/user.py</url>
+          <url>file://$PROJECT_DIR$/src/models/user.py</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
